@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Nama"/>
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/et_pass"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Password"/>
+
+
+    <LinearLayout
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="27dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_marginRight="35dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Login"/>
+        <Button
+            android:id="@+id/regis"
+            android:layout_marginLeft="35dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Regist" />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Forgot"/>
+
+</LinearLayout>
